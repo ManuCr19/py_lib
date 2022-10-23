@@ -1,4 +1,4 @@
-# ManuCr19's Python3 Librarey
+# ManuCr19's Python3 Library
 
 Una librería de Python estúpidamente simple escrita por alguien que no tiene ni idea. Espero que os sea de ayuda y sentíos libres de colaborar, gracias.
 
