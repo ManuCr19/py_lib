@@ -4,6 +4,18 @@ Una librería de Python estúpidamente simple escrita por alguien que no tiene n
 
 A stupidly simple Python library written by someone who doesn't have a clue. I hope you find it helpful and feel free to contribute, thanks.
 
+## Instalar/Actualizar/Eliminar el paquete con pip
+```/bin/bash
+# INSTALAR
+pip install pip install git+https://github.com/manucr19/library.git
+
+# ACTUALIZAR
+pip install --upgrade pip install git+https://github.com/manucr19/library.git
+
+# ELIMINAR
+pip unistall manucr19_py
+```
+
 ## manucr19-py/file.py
 Archivo de funciones para trabajar con ficheros en phyton:
   - file.cat: Muestra el contenido de un fichero por pantalla.
