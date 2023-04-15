@@ -7,7 +7,7 @@ setup(
     packages=find_packages(),
     license='GPLv3',
     install_requires=[
-        'dialog',
-        'subprocess'
+        'pythondialog',
+        'subprocess.run'
     ]
 )
