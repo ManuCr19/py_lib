@@ -16,7 +16,7 @@ pip install --upgrade pip install git+https://github.com/manucr19/library.git
 pip unistall manucr19_py
 ```
 
-## manucr19-py/file.py
+## manucr19_py/file.py
 Archivo de funciones para trabajar con ficheros en phyton:
   - file.cat: Muestra el contenido de un fichero por pantalla.
   - file.create: Crea un fichero con un texto.
@@ -24,7 +24,7 @@ Archivo de funciones para trabajar con ficheros en phyton:
   - file.replace_text: Cambia un texto por otro en un fichero.
   - file.add_text: Añade un texto al final de un fichero.
 
-## manucr19-py/tui.py
+## manucr19_py/tui.py
 Archivo de funciones que utiliza la libreria pythondialog para crear interfaces de usuario de texto.
   - tui.msgbox: Muestra una ventana de mensaje con título y texto personalizados
   - tui.yesno: Muestra una ventana con opciones de sí/no, con título y texto personalizados
