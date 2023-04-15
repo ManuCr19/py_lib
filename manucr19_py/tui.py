@@ -2,7 +2,7 @@ from dialog import Dialog
 from subprocess import run
 
 # Comprobacion de que el comando 'dialog' esta instalado en el sistema
-output = subprocess.run(["which","dialog"], capture_output=True)
+output = run(["which","dialog"], capture_output=True)
 if output.returncode != 0:
     print("El comando 'dialog' no esta instalado, es necesario")
     exit()
