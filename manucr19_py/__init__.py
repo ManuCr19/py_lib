@@ -1,2 +1,2 @@
-import tui
-import file
+from . import tui
+from . import file
