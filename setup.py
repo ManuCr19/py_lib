@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='manucr19_py',
-    version='1.0',
+    version='1.0.1',
     url='https://github.com/manucr19/library',
     packages=find_packages(),
     license='GPLv3',
