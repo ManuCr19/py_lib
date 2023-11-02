@@ -7,10 +7,10 @@ A stupidly simple Python library written by someone who doesn't have a clue. I h
 ## Instalar/Actualizar/Eliminar el paquete con pip
 ```/bin/bash
 # INSTALAR
-pip install pip install git+https://github.com/manucr19/library.git
+pip install git+https://github.com/manucr19/library.git
 
 # ACTUALIZAR
-pip install --upgrade pip install git+https://github.com/manucr19/library.git
+pip install --upgrade git+https://github.com/manucr19/library.git
 
 # ELIMINAR
 pip unistall manucr19_py
