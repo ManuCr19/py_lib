@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "manucr19_py_lib"
+version = "0.1.0"
+description = "https://github.com/manucr19/py_lib"
+authors = ["ManuCr19 <name@example.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pythondialog = "^3.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
