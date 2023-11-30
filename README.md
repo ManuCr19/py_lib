@@ -1,33 +1,31 @@
 # ManuCr19's Python3 Library
 
-Una librería de Python estúpidamente simple escrita por alguien que no tiene ni idea. Espero que os sea de ayuda y sentíos libres de colaborar, gracias.
-
 A stupidly simple Python library written by someone who doesn't have a clue. I hope you find it helpful and feel free to contribute, thanks.
 
-## Instalar/Actualizar/Eliminar el paquete con pip
+## Install/Update/Uninstall the package with pip
 ```/bin/bash
-# INSTALAR
-pip install git+https://github.com/manucr19/library.git
+# INSTALL
+pip install git+https://github.com/manucr19/py_lib.git
 
-# ACTUALIZAR
-pip install --upgrade git+https://github.com/manucr19/library.git
+# UPDATE
+pip install --upgrade git+https://github.com/manucr19/py_lib.git
 
-# ELIMINAR
-pip unistall manucr19_py
+# UNINSTALL
+pip unistall manucr19_py_lib
 ```
 
-## manucr19_py/file.py
-Archivo de funciones para trabajar con ficheros en phyton:
-  - file.cat: Muestra el contenido de un fichero por pantalla.
-  - file.create: Crea un fichero con un texto.
-  - file.delete: Elimina un fichero.
-  - file.replace_text: Cambia un texto por otro en un fichero.
-  - file.add_text: Añade un texto al final de un fichero.
+## manucr19_py_lib/file.py
+File containing functions for working with files in Python:
+  - `file.cat`: Displays the content of a file on the screen.
+  - `file.create`: Creates a file with specified text.
+  - `file.delete`: Deletes a file.
+  - `file.replace_text`: Replaces one text with another in a file.
+  - `file.add_text`: Appends text to the end of a file.
 
-## manucr19_py/tui.py
-Archivo de funciones que utiliza la libreria pythondialog para crear interfaces de usuario de texto.
-  - tui.msgbox: Muestra una ventana de mensaje con título y texto personalizados
-  - tui.yesno: Muestra una ventana con opciones de sí/no, con título y texto personalizados
-  - tui.imputbox: Muestra una ventana con un campo de entrada de texto, con título y texto personalizados
-  - tui.menu: Muestra una ventana con una lista de opciones, con título y texto personalizados
-  - tui.infobox: Muestra una ventana con información en formato de caja, con título y texto personalizados
+## manucr19_py_lib/tui.py
+File containing functions that use the pythondialog library to create text user interfaces.
+  - `tui.msgbox`: Displays a message window with custom title and text.
+  - `tui.yesno`: Displays a window with yes/no options, with custom title and text.
+  - `tui.inputbox`: Displays a window with a text input field, with custom title and text.
+  - `tui.menu`: Displays a window with a list of options, with custom title and text.
+  - `tui.infobox`: Displays a window with information in box format, with custom title and text.
