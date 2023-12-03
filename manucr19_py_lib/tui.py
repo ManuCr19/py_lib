@@ -1,6 +1,7 @@
 """File containing functions that use pythondialog to create text interfaces"""
 
 import sys
+import time
 from subprocess import run
 from dialog import Dialog
 
@@ -100,7 +101,7 @@ def menu(title, text, choices, height = None, width = None):
         sys.exit()
     return None
 
-def infobox(title, text, height = None, width = None):
+def infobox(title, text, height = None, width = None, duration = 5):
     """
     Displays a window with information in box format, with custom title and text
    
@@ -112,6 +113,7 @@ def infobox(title, text, height = None, width = None):
     text = "\n" + text
     d = Dialog(dialog = "dialog", autowidgetsize = True)
     code = d.infobox(text, title = title, height = height, width = width)
+    time.sleep(duration)
     if code == d.ESC:
         run("clear", check=False)
         sys.exit()
