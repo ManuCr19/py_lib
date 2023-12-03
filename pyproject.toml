@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manucr19_py_lib"
-version = "0.1.1"
+version = "0.1.2"
 description = "https://github.com/manucr19/py_lib"
 authors = ["ManuCr19 <name@example.com>"]
 license = "GPLv3"
